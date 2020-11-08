@@ -623,19 +623,20 @@ var bally3 = 200;
   image(robot, 0, 150); //fake flower New middle
   image(robot, -200, 300); //fake flower NEW
   
-      image(flower01, -200, -100);  //ball0 
-  image(flower02, 0, 0);  //ball1  400 x 300
-  image(flower04, 200, -100);  //ball3
-  image(flower03, 300, 100);  //ball2
-
-    image(robot, 0, 400); //fake flower
-      image(robot, 200, 300); //fake flower
   
   
   ellipse(ballx, bally, ballSize, ballSize);
   ellipse(ballx1, bally1, ballSize, ballSize);
   ellipse(ballx2, bally2, ballSize, ballSize);
   ellipse(ballx3, bally3, ballSize, ballSize);
+  
+        image(flower01, -200, -100);  //ball0 
+  image(flower02, 0, 0);  //ball1  400 x 300
+  image(flower04, 200, -100);  //ball3
+  image(flower03, 300, 100);  //ball2
+
+    image(robot, 0, 400); //fake flower
+      image(robot, 200, 300); //fake flower
   
   
 
